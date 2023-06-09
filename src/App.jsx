@@ -8,14 +8,19 @@ function App() {
 
   return (
     <>
-      <Draggable>
-        <div className='container-box'>
-          <div className='draggable-el'>
-            <p>Drag me</p>
-          </div>
-        </div>
-      </Draggable>
 
+      <div className='container-box'>
+        <Draggable>
+          <div className='draggable-el'>
+            <p>Drag me 1</p>
+          </div>
+        </Draggable>
+        <Draggable>
+          <div className='draggable-el-2'>
+            <p>Drag me 2</p>
+          </div>
+        </Draggable>
+      </div>
     </>
   )
 }

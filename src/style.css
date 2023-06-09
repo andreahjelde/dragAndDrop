@@ -22,3 +22,16 @@ p {
     font-weight: bold;
 
 }
+
+.draggable-el-2 {
+    width: 10rem;
+    height: 10rem;
+    display: grid;
+    background-color: rgb(166, 126, 205);
+    border-radius: 50%;
+    margin-left: 80%;
+    margin-top: 30%;
+    cursor: move;
+    position: absolute;
+    place-items: center;
+}
